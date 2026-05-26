@@ -1,0 +1,29 @@
+// FADE IN SECTIONS ON SCROLL
+
+const sections = document.querySelectorAll(
+  ".about-section, .contact-section"
+);
+
+const observer = new IntersectionObserver(
+
+  (entries) => {
+
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+
+    });
+
+  },
+
+  {
+    threshold: 0.2
+  }
+
+);
+
+sections.forEach((section) => {
+  observer.observe(section);
+});

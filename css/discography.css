@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  padding: 22px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(8px);
+
+  z-index: 999;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+
+.discography-hero {
+  height: 60vh;
+
+  background-image: url('../imgs/discography-banner.jpg');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.5);
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay h1 {
+  font-size: 5rem;
+  letter-spacing: 12px;
+}
+
+/* CONTROLS */
+
+.controls-section {
+  padding: 60px;
+}
+
+.controls-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#searchInput,
+#sortSelect {
+  padding: 16px 20px;
+
+  background: #111;
+  border: 1px solid #333;
+
+  color: white;
+
+  min-width: 250px;
+}
+
+.layout-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.layout-buttons button {
+  padding: 16px 24px;
+
+  border: 1px solid white;
+  background: transparent;
+
+  color: white;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.layout-buttons button.active,
+.layout-buttons button:hover {
+  background: white;
+  color: black;
+}
+
+/* ALBUMS */
+
+.albums-section {
+  padding: 0 60px 100px;
+}
+
+.albums-container {
+  display: grid;
+  gap: 30px;
+}
+
+/* DETAILED LAYOUT */
+
+.albums-container.detailed-layout {
+  grid-template-columns: 1fr;
+}
+
+.detailed-layout .album-card {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+
+  background: #111;
+
+  overflow: hidden;
+
+  text-decoration: none;
+  color: white;
+
+  transition: transform 0.3s;
+}
+
+.detailed-layout .album-card:hover {
+  transform: scale(1.01);
+}
+
+.album-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.album-info {
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.album-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.album-info p {
+  color: #cfcfcf;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.release-date {
+  opacity: 0.6;
+}
+
+/* GRID LAYOUT */
+
+.albums-container.grid-layout {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-layout .album-card {
+  display: flex;
+  flex-direction: column;
+
+  background: #111;
+
+  text-decoration: none;
+  color: white;
+
+  overflow: hidden;
+}
+
+.grid-layout .album-info {
+  padding: 20px;
+}
+
+.grid-layout .album-info p,
+.grid-layout .release-date {
+  display: none;
+}
+
+/* SONG SEARCH RESULTS */
+
+.song-results {
+  width: 100%;
+  max-width: 900px;
+
+  margin: -20px auto 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 0 60px;
+}
+
+.song-result {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  background: #111;
+
+  padding: 14px;
+
+  text-decoration: none;
+  color: white;
+
+  border: 1px solid #222;
+
+  transition: 0.3s;
+}
+
+.song-result:hover {
+  background: #1a1a1a;
+}
+
+.song-result img {
+  width: 55px;
+  height: 55px;
+
+  object-fit: cover;
+}
+
+.song-info {
+  flex: 1;
+}
+
+.song-info h4 {
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.song-info p {
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+
+.song-length {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+
+  .detailed-layout .album-card {
+    grid-template-columns: 1fr;
+  }
+
+  .albums-container.grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-overlay h1 {
+    font-size: 3rem;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+}
