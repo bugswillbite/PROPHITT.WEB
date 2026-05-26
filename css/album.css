@@ -127,3 +127,153 @@ body {
 
   border-bottom: 1px solid #222;
 }
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+
+  .navbar {
+    width: 100%;
+    padding: 18px 16px;
+
+    flex-direction: column;
+    gap: 14px;
+
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+
+  .nav-links {
+    width: 100%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+  /* HERO TITLES */
+
+  .hero-overlay h1,
+  .discography-hero h1,
+  .experience-hero h1 {
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* CONTROLS */
+
+  .controls-section {
+    padding: 40px 20px;
+  }
+
+  .controls-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #searchInput,
+  #sortSelect {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .layout-buttons {
+    width: 100%;
+  }
+
+  .layout-buttons button {
+    width: 100%;
+  }
+
+  /* DISCOVERY GRID */
+
+  .albums-section,
+  .events-section {
+    padding: 0 20px 80px;
+  }
+
+  .albums-container.grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  /* ALBUM PAGES */
+
+  .album-page {
+    padding: 140px 20px 80px;
+  }
+
+  .album-header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    gap: 30px;
+  }
+
+  .album-header img {
+    width: 100%;
+    max-width: 320px;
+
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+  }
+
+  .album-meta {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .album-meta h1 {
+    font-size: 2rem;
+  }
+
+  .album-meta p {
+    line-height: 1.8;
+  }
+
+  .stream-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* TRACKLIST */
+
+  .tracklist {
+    margin-top: 50px;
+  }
+
+  .track {
+    padding: 18px 0;
+
+    font-size: 0.9rem;
+
+    gap: 20px;
+  }
+
+  /* BACK BUTTON */
+
+  .back-button {
+    top: 105px;
+    left: 20px;
+
+    font-size: 0.85rem;
+  }
+
+}
