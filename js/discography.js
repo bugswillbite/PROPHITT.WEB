@@ -552,8 +552,252 @@ const songs = [
     album: "Overflow",
     cover: "imgs/overflow.jpg",
     page: "overflow.html"
-    }
+    },
 
+    {
+    title: "Lebanon(Intro)",
+    length: "1:47",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Dear Lord, Dear Father",
+    length: "3:20",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Broken",
+    length: "3:01",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Curse of Cain",
+    length: "3:53",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Crossroads",
+    length: "3:53",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "When Wolves Cry",
+    length: "3:41",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Blood Ties",
+    length: "3:09",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Ambidextrous",
+    length: "4:03",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "White Stripe",
+    length: "1:04",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Letter 2 Cleva",
+    length: "2:45",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Flatliner",
+    length: "3:59",
+    album: "Soul Brothers",
+    cover: "imgs/soulbrotha.png",
+    page: "soulbrothers.html"
+    },
+
+    {
+    title: "Sunrise (Intro)",
+    length: "0:53",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Ain't Worried Bout It",
+    length: "4:15",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Take It Easy",
+    length: "3:47",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "90's Love Story",
+    length: "3:55",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Comfortable (feat. Reverb)",
+    length: "4:52",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Falling Again",
+    length: "2:27",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Wake Up (Interlude)",
+    length: "0:32",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Sunday",
+    length: "4:13",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Finally Free",
+    length: "3:33",
+    album: "Daybreak",
+    cover: "imgs/daybreak.png",
+    page: "daybreak.html"
+    },
+
+    {
+    title: "Cocoon Man",
+    length: "5:43",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "Jacked Nicholson",
+    length: "3:14",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "Max Headroom",
+    length: "3:36",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "Kareem",
+    length: "5:28",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "YOU'RE a RUNNER and i'm my father's son",
+    length: "3:15",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "College Hill Road (Outro)",
+    length: "4:28",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "Coming Up Next",
+    length: "0:45",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "QUIET ON SET (The Prophitt's Double Feature)",
+    length: "3:42",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "YOUR REVOLUTION WON'T BE TELEVISED (The Prophitt's Double Feature)",
+    length: "2:27",
+    album: "The Light Shines From The Trap Door",
+    cover: "imgs/soulbrotha.png",
+    page: "lightshines.html"
+  },
+  {
+    title: "The Cadre",
+    length: "4:47",
+    album: "The Cadre",
+    cover: "imgs/cadre.jpeg",
+    page: "cadre.html"
+  },
+  {
+    title: "Momma's House",
+    length: "2:23",
+    album: "Momma's House",
+    cover: "imgs/mommashouse.jpeg",
+    page: "mommashouse.html"
+  },
+  {
+    title: "Abstract Michelle",
+    length: "2:55",
+    album: "Abstract Michelle",
+    cover: "imgs/abstract.jpeg",
+    page: "abstract.html"
+  }
 ];
 
 const albumsContainer = document.getElementById('albumsContainer');

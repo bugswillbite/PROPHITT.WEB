@@ -25,7 +25,7 @@ const events = [
       "Schubas Tavern • Chicago, IL",
 
     description:
-      "Live DJ set and performance of album POTE BABY featuring collaborative performances with local artists."
+      "Live performance of album POTE BABY featuring collaborative performances with local artists. Producer, headliner, artist DJ, artist set sequencer, solo DJ set, event organizer, and event promoter."
   },
 
   {
@@ -39,7 +39,63 @@ const events = [
       "Sounds Of Brazil • New York, NY",
 
     description:
-      "DJ set and live performance of album POTE BABY at a legendary venue."
+      "Live performance of album POTE BABY at a legendary venue. Producer, Artist DJ, and Performer."
+  },
+
+  {
+    title:
+      "Voices Amplified: Hip-Hop for Change",
+
+    date:
+      "January 2024",
+
+    location:
+      "Chicago, IL",
+
+    description:
+      "Event Planner, Solo DJ Set, and Artist DJ."
+  },
+
+  {
+    title:
+      "Book Club Chicago",
+
+    date:
+      "December 2023",
+
+    location:
+      "Chicago, IL",
+
+    description:
+      "Set Sequencer, Artist DJ, and Solo DJ Set."
+  },
+
+{
+    title:
+      "African Festival of the Arts",
+
+    date:
+      "September 2023",
+
+    location:
+      "Chicago, IL",
+
+    description:
+      "Set Sequencer, Artist DJ, and Solo DJ Set."
+  },
+
+{
+    title:
+      "Hip Hop: Child of the Blues",
+
+    date:
+      "September 2023",
+
+    location:
+      "Chicago, IL",
+
+    description:
+      "Composer, Producer, and Solo DJ Set."
   },
 
   {
@@ -53,7 +109,21 @@ const events = [
       "Cole's Bar • Chicago, IL",
 
     description:
-      "DJ set and live performance of album POTE BABY with local artists supporting."
+      "DJ set and live performance of album POTE BABY with local artists support. Producer, Artist Set Sequencer, Artist DJ, and Solo DJ Set."
+  },
+
+{
+    title:
+      "Manifest Arts Festival",
+
+    date:
+      "May 2024",
+
+    location:
+      "Manifest Arts Festival • Chicago, IL",
+
+    description:
+      "Producer, Artist Set Sequencer, Artist DJ, Event Planner, and Solo DJ Set."
   },
 
   {
