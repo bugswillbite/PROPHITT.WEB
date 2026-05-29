@@ -103,7 +103,7 @@ body {
 .stream-links {
   display: flex;
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   flex-wrap: wrap;
 }
 
